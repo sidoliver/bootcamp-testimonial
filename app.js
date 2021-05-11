@@ -1,9 +1,4 @@
-/* 
-1.user will click the arrow button
-2. image will be change
-3. paragraph text will change
-4. name and title will be change
-*/
+
 const reviews = [
     {
         id: 1,

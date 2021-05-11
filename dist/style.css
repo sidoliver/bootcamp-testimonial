@@ -2,12 +2,10 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
-
 * body {
-  font-family: 'Inter',sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .container {
@@ -15,7 +13,6 @@
   overflow: hidden;
   padding: 30px 0 0;
 }
-
 .container .image-section {
   height: 40vh;
   background-image: url(images/pattern-bg.svg);
@@ -24,7 +21,6 @@
   background-position: center;
   padding-top: 3.4vh;
 }
-
 .container .image-section .main-image {
   height: 90%;
   display: block;
@@ -33,7 +29,6 @@
   -webkit-box-shadow: -18px 25px 43px -10px rgba(0, 0, 0, 0.26);
   -moz-box-shadow: -18px 25px 43px -10px rgba(0, 0, 0, 0.26);
 }
-
 .container .slider-btns {
   height: 4%;
   width: 10%;
@@ -43,21 +38,14 @@
   top: 38.5%;
   left: 44%;
   background-color: snow;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  align-items: center;
+  justify-content: space-around;
   border-radius: 20px;
 }
-
 .container .slider-btns .btn:hover {
   color: orange;
 }
-
 .container .slider-section {
   background-image: url(images/pattern-quotes.svg);
   background-size: 15vw;
@@ -71,7 +59,6 @@
   margin-bottom: 100px;
   margin-top: 20px;
 }
-
 .container .slider-section .slider-content p {
   font-size: 2.2vh;
   margin-bottom: 20px;
@@ -80,19 +67,16 @@
   color: #202046;
   font-weight: 300;
 }
-
 .container .slider-section .slider-content .name {
   font-size: 2vh;
   color: #202046;
   margin-bottom: 8px;
 }
-
 .container .slider-section .slider-content .title {
   font-size: 1.8vh;
   font-weight: 500;
   color: #babacf;
 }
-
 .container .footer .footer-img {
   width: 100vw;
   height: 90px;
@@ -105,27 +89,16 @@
     width: 100vw;
     height: 100vh;
     border: 3px solid black;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
     position: relative;
     overflow: hidden;
     padding-right: 14vh;
   }
   .container .image-section {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    flex: 1;
     width: 40vh;
     height: 85vh;
     position: relative;
@@ -149,9 +122,7 @@
     z-index: 11;
   }
   .container .slider-section {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    flex: 1;
     height: 50vh;
     width: 60vw;
     left: 6vw;
@@ -176,4 +147,3 @@
     font-size: 1.2vw;
   }
 }
-/*# sourceMappingURL=style.css.map */
